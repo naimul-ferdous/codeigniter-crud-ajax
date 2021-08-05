@@ -73,6 +73,7 @@ $(document).ready(function () {
 				$("#age").val("");
 				$("#marks").val("");
 				$("#addStdModal").modal("hide");
+				Message.Success("save");
 				listStudents();
 			},
 		});
@@ -111,6 +112,7 @@ $(document).ready(function () {
 				$("#stdAge").val("");
 				$("#stdMarks").val("");
 				$("#editStdModal").modal("hide");
+				Message.Success("update");
 				listStudents();
 			},
 		});
@@ -137,6 +139,7 @@ $(document).ready(function () {
 				$("#" + delStdId).remove();
 				$("#deleteStdId").val("");
 				$("#deleteStdModal").modal("hide");
+				Message.Success("delete");
 				listStudents();
 			},
 		});

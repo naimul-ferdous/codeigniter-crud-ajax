@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/dataTables.bootstrap4.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/jquery.dataTables.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url().'assets/css/notifit.css' ?>">
     <title>Document</title>
 </head>
 
@@ -196,6 +197,8 @@
     <script type="text/javascript" src="<?php echo base_url().'assets/js/bootstrap.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/js/jquery.dataTables.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/js/dataTables.bootstrap4.js'?>"></script>
+    <script type="text/javascript" src="<?php echo base_url().'assets/js/notifit.js'?>"></script>
+    <script type="text/javascript" src="<?php echo base_url().'assets/js/Messages.js'?>"></script>
     <script type="text/javascript" src="<?php echo base_url().'assets/js/crud.js'?>"></script>
 </body>
 
